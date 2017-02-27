@@ -9,6 +9,8 @@ const onerror = require('koa-onerror');
 const bodyparser = require('koa-bodyparser')();
 const logger = require('koa-logger');
 
+const api = require('./routes/api');
+
 const index = require('./routes/index');
 const users = require('./routes/users');
 
@@ -32,6 +34,7 @@ app.use(async (ctx, next) => {
 
 router.use('/', index.routes(), index.allowedMethods());
 router.use('/users', users.routes(), users.allowedMethods());
+router.use('/api', api.routes(), api.allowedMethods());
 
 app.use(router.routes(), router.allowedMethods());
 // response
@@ -40,6 +43,5 @@ app.on('error', function(err, ctx){
   console.log(err)
   logger.error('server error', err, ctx);
 });
-
 
 module.exports = app;
