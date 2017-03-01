@@ -10,6 +10,7 @@ const bodyparser = require('koa-bodyparser')();
 const logger = require('koa-logger');
 
 const api = require('./routes/api');
+require("./app/model/user.model");
 
 const index = require('./routes/index');
 const users = require('./routes/users');
