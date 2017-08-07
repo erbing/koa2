@@ -2,17 +2,4 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
-  ul
-    -for(var i=0; i < 5; i++) {
-      li hello #{i}
-    -}
-  
-  mixin list(arr)
-    ul.arr
-      -for(var i=0; i < arr.length; i++) {
-        li hello #{i + arr[i]}
-      -}
-  
-  +list(['123', 'abc', '789'])
-  +list(['321', 'cba', 'nba'])
+  p JADE Welcome to #{title}
