@@ -24,7 +24,7 @@ app.use(convert(require('koa-static')(__dirname + '/public')));
 //   extension: 'jade'
 // }));
 
-app.use(views(__dirname + '/views-ejs', {
+app.use(views(__dirname + '/views', {
   extension: 'ejs'
 }));
 
