@@ -11,8 +11,10 @@ const json = require('koa-json');
 const onerror = require('koa-onerror');
 const logger = require('koa-logger');
 
+// 路由
 const index = require('./routes/index');
 const users = require('./routes/users');
+const login = require('./routes/login');
 
 // middlewares
 app.use(convert(bodyparser));
@@ -38,6 +40,7 @@ app.use(async (ctx, next) => {
 
 router.use('/', index.routes(), index.allowedMethods());
 router.use('/users', users.routes(), users.allowedMethods());
+router.use('/login', login.routes(), login.allowedMethods());
 
 app.use(router.routes(), router.allowedMethods());
 // response
