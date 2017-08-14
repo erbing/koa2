@@ -2,12 +2,26 @@
 <html>
   <head>
     <title><%= title %></title>
-    <link rel='stylesheet' href='/dist/css/materialize.min.css' />
+    <link rel='stylesheet' href='/dist/css/materialize.css' />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
+  <nav>
+    <div class="nav-wrapper">
+      <div class="col s12">
+        <a href="#!" class="breadcrumb">First</a>
+        <a href="#!" class="breadcrumb">Second</a>
+        <a href="#!" class="breadcrumb">Third</a>
+      </div>
+    </div>
+  </nav>
+  <i class="material-icons">add</i>
     <h1><%= title %></h1>
     <p>EJSss Welcome to <%= title %></p>
     <a>this is test title</a>
-    <button>this</button>
+    <a class="waves-effect waves-light btn">button</a>
   </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="/dist/js/materialize.min.js"></script>
+
 </html>
