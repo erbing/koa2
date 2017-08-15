@@ -10,16 +10,16 @@
 
     <div class="topbar"></div>
 
-    <nav>
-      <div class="nav-wrapper white">
+    <nav style="background: #fff;">
+      <div class="nav-wrapper white" style="max-width: 1200px; margin: 0 auto">
         <a href="#" class="brand-logo">
-          <img src="/images/v7.png" class="logo"/> <div style="color: #B3B6B7; float: left"><%= title %></div>
+          <img src="/images/v7.png" class="logo"/> <div style="color: #B3B6B7; float: left; margin-left: 10px;"><%= title %></div>
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="index.html" style="color: #666">首页</a></li>
           <li><a href="https://vuejs.com.cn" style="color: #666">组件库</a></li>
-          <li><a href="https://vuejs.com.cn" style="color: #666">热门文章</a></li>
-          <li><a href="https://vuejs.com.cn" style="color: #666">最新文章</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">文章</a></li>
+          <li><a href="#" style="color: #666">issues</a></li>
           <li><a href="#" style="color: #666">登录</a></li>
         </ul>
       </div>
@@ -34,7 +34,57 @@
     <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a> -->
 
     <div class="main">
-      
+      <div class="row" style="border: 1px solid #d9dadc;">
+
+        <div class="col s9"  style="border-right: 1px solid #d9dadc; padding: 0px;">
+            <div class="row" >
+              <div class="col s12">
+                <ul class="tabs">
+                  <li class="tab col s3"><a href="#test1" class="active">全部</a></li>
+                  <li class="tab col s3"><a href="#test2">最新</a></li>
+                  <li class="tab col s3"><a href="#test3">热门</a></li>
+                  <li class="tab col s3"><a href="#test4">Q & A</a></li>
+                </ul>
+              </div>
+              <div id="test1" class="col s12">
+                <div class="content">
+                  <table class="bordered highlight"> 
+                    <!--<thead>
+                      <tr>
+                          <th>Name</th>
+                          <th>Item Name</th>
+                          <th>Item Price</th>
+                      </tr>
+                    </thead>-->
+
+                    <tbody>
+                      <tr>
+                        <td>
+                          《JavaScript 从入门到放弃》
+                          <span style="float: right;">2017/07/07</span>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>实例化mongodb</td>
+                      </tr>
+                      <tr>
+                        <td>react 入门</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+              <div id="test2" class="col s12">Test 2</div>
+              <div id="test3" class="col s12">Test 3</div>
+              <div id="test4" class="col s12">Test 4</div>
+            </div>
+        </div>
+
+        <div class="col s3" style="padding: 0px;">
+          this is 3
+        </div>
+
+      </div>
     </div>
 
 

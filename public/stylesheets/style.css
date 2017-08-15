@@ -14,12 +14,30 @@ body{
 
 .logo{
   margin-top: 5px;
-  margin-left: 10px;
   width: 50px;
   height: 50px;
   float: left;
 }
 
 .main{
-  
+  max-width: 1200px;
+  height: auto;
+  margin-top: 30px;
+  background: #fff;
+  margin: 30px auto;
+}
+
+.tabs .tab a{
+  color: #41B783;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active{
+  color: #44B549;
+}
+.tabs .indicator{
+  background-color: #44B549;
+}
+
+.content{
+  margin-top: 20px;
 }
