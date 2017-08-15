@@ -4,30 +4,42 @@
     <title><%= title %></title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel='stylesheet' href='/dist/css/materialize.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
 
-  <nav>
-    <div class="nav-wrapper teal accent-4">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="index.html">Index</a></li>
-        <li><a href="https://vuejs.com.cn">Components</a></li>
-        <li><a href="#">JavaScript</a></li>
-      </ul>
-    </div>
-  </nav>
+    <div class="topbar"></div>
 
-    <h1><%= title %></h1>
-    <p>EJSss Welcome to <%= title %></p>
+    <nav>
+      <div class="nav-wrapper white">
+        <a href="#" class="brand-logo">
+          <img src="/images/v7.png" class="logo"/> <div style="color: #B3B6B7; float: left"><%= title %></div>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html" style="color: #666">首页</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">组件库</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">热门文章</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">最新文章</a></li>
+          <li><a href="#" style="color: #666">登录</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- <h1><%= title %></h1> -->
+    <!-- <p>EJSss Welcome to <%= title %></p>
     <a>this is test title</a>
 
     <a class="waves-effect waves-light btn">button</a>
     <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-    <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
+    <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a> -->
+
+    <div class="main">
+      
+    </div>
 
 
-    <footer class="page-footer teal accent-4">
+
+    <footer class="page-footer footer-color">
       <div class="container">
         <div class="row">
           <div class="col l6 s12">
