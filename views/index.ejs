@@ -11,13 +11,14 @@
     <div class="topbar"></div>
 
     <nav style="background: #fff;">
-      <div class="nav-wrapper white" style="max-width: 1200px; margin: 0 auto">
+      <div class="nav-index nav-wrapper white" style="margin: 0 auto">
         <a href="#" class="brand-logo">
           <img src="/images/v7.png" class="logo"/> <div style="color: #B3B6B7; float: left; margin-left: 10px;"><%= title %></div>
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="index.html" style="color: #666">首页</a></li>
           <li><a href="https://vuejs.com.cn" style="color: #666">组件库</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">文档</a></li>
           <li><a href="https://vuejs.com.cn" style="color: #666">文章</a></li>
           <li><a href="#" style="color: #666">issues</a></li>
           <li><a href="#" style="color: #666">登录</a></li>
@@ -38,40 +39,44 @@
 
         <div class="col s9"  style="border-right: 1px solid #d9dadc; padding: 0px;">
             <div class="row" >
-              <div class="col s12">
-                <ul class="tabs">
-                  <li class="tab col s3"><a href="#test1" class="active">全部</a></li>
-                  <li class="tab col s3"><a href="#test2">最新</a></li>
-                  <li class="tab col s3"><a href="#test3">热门</a></li>
-                  <li class="tab col s3"><a href="#test4">Q & A</a></li>
+              <div class="">
+                <ul class="tabs tab-demo z-depth-1">
+                  <li class="tab"><a href="#test1" class="active">全部</a></li>
+                  <li class="tab"><a href="#test2">最新</a></li>
+                  <li class="tab"><a href="#test3">热门</a></li>
+                  <li class="tab"><a href="#test4">Q & A</a></li>
                 </ul>
               </div>
+              
               <div id="test1" class="col s12">
                 <div class="content">
-                  <table class="bordered highlight"> 
-                    <!--<thead>
-                      <tr>
-                          <th>Name</th>
-                          <th>Item Name</th>
-                          <th>Item Price</th>
-                      </tr>
-                    </thead>-->
 
-                    <tbody>
-                      <tr>
-                        <td>
-                          《JavaScript 从入门到放弃》
-                          <span style="float: right;">2017/07/07</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>实例化mongodb</td>
-                      </tr>
-                      <tr>
-                        <td>react 入门</td>
-                      </tr>
-                    </tbody>
-                  </table>
+  <ul class="collection">
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">play_arrow</i>
+      <span class="title">JavaScript 从入门到放弃</span>
+      <p>First Line</p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle">folder</i>
+      <span class="title">实例化mongodb</span>
+      <p>First Line</p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle green">insert_chart</i>
+      <span class="title">react 入门</span>
+      <p>First Line</p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+    <li class="collection-item avatar">
+      <i class="material-icons circle red">play_arrow</i>
+      <span class="title">vue 入门</span>
+      <p>First Line</p>
+      <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+    </li>
+  </ul>
                 </div>
               </div>
               <div id="test2" class="col s12">Test 2</div>
