@@ -56,3 +56,89 @@ body{
 .collection .collection-item.avatar .secondary-content{
   top: 20px;
 }
+
+.list-li-title-timer{
+  color: #B3B6B7;
+  font-size: 14px;
+}
+
+.right-main{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+.right-user{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.right-user-title{
+  padding-left: 5px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  color: #44B549;
+  border-left: 4px solid #44B549;
+
+}
+
+.right-ad{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.right-ad-title{
+  padding-left: 5px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  color: #44B549;
+  border-left: 4px solid #44B549;
+}
+.right-ads-li{
+  width: 100%;
+  height: 70px;
+  overflow: hidden;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.right-ads-li img{
+  width: 100%;
+  height: 70px;
+  overflow: hidden;
+}
+
+
+.right-none{
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.right-none-title{
+  padding-left: 5px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  color: #44B549;
+  border-left: 4px solid #44B549;
+}
+.right-none-ul{
+    margin: .5rem 0 1rem 0;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+}
+
+.right-none-item{
+    background-color: #fff;
+    line-height: 1.5rem;
+    margin: 0;
+    padding-left: 10px;
+    min-width: 228px;
+    text-overflow: ellipsis;
+}
