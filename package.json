@@ -1,11 +1,12 @@
 {
-  "name": "koa2-demo",
+  "name": "koa2",
   "version": "0.1.0",
   "scripts": {
     "init": "npm i --registry=https://registry.npm.taobao.org",
     "start": "./node_modules/.bin/nodemon bin/run",
     "koa": "./node_modules/.bin/runkoa bin/www",
     "pm2": "pm2 start bin/run ",
+    "stop": "pm2 stop bin/run ",
     "test": "./node_modules/.bin/mocha -u bdd"
   },
   "dependencies": {
@@ -23,7 +24,8 @@
     "koa-static": "^1.5.2",
     "koa-views": "^5.0.1",
     "materialize-css": "^0.100.1",
-    "runkoa": "^1.5.2"
+    "runkoa": "^1.5.2",
+    "pm2": "^2.6.0"
   },
   "devDependencies": {
     "mocha": "^2.4.5",
