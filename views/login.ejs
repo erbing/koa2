@@ -1,60 +1,62 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登陆</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel='stylesheet' href='/dist/css/materialize.min.css' />
-  </head>
-  <body>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    <div class="topbar"></div>
 
-  <nav>
-    <div class="nav-wrapper teal accent-4">
-      <a href="#" class="brand-logo">Logo</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Index</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
-      </ul>
+    <nav style="background: #fff;">
+      <div class="nav-index nav-wrapper white" style="margin: 0 auto">
+        <a href="#" class="brand-logo">
+          <img src="/images/v7.png" class="logo"/> <div style="color: #B3B6B7; float: left; margin-left: 10px;"><%= title %></div>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html" style="color: #666">首页</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">组件库</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">文档</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">文章</a></li>
+          <li><a href="#" style="color: #666">issues</a></li>
+          <li><a href="#" style="color: #666">登录/注册</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main">
+      this is main
     </div>
-  </nav>
 
-    <h1><%= title %></h1>
-    <p>EJSss Welcome to <%= title %></p>
-    <a>this is test title</a>
-
-    <a class="waves-effect waves-light btn">button</a>
-    <a class="waves-effect waves-light btn"><i class="material-icons left">cloud</i>button</a>
-    <a class="waves-effect waves-light btn"><i class="material-icons right">cloud</i>button</a>
-
-
-    <footer class="page-footer teal accent-4">
-      <div class="container">
+    <footer class="page-footer footer-color">
+      <div class="nav-index container">
         <div class="row">
           <div class="col l6 s12">
-            <h5 class="white-text">Footer Content</h5>
-            <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+            <h5 class="white-text">VueJs 中文社区</h5>
+            <p class="grey-text text-lighten-4"> 你可以在这里 提问、解答、寻找基友，遇见大牛或者招聘.</p>
+            <p class="grey-text text-lighten-4"> 能够获取到知识是最开心的</p>
           </div>
-          <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
+          <div class="col l2 offset-l3 s12">
+            <h5 class="white-text">友情链接</h5>
             <ul>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-              <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">尤老师</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">大漠老师</a></li>
             </ul>
           </div>
         </div>
       </div>
       <div class="footer-copyright">
-        <div class="container">
-        © 2017 Copyright Text
-        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        <div class="nav-index container">
+        © 2017 Copyright VueJs社区
+        <a class="grey-text text-lighten-4 right" href="#!">更多链接</a>
         </div>
       </div>
     </footer>
-
-  </body>
+</body>
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="/dist/js/materialize.min.js"></script>
 </html>
-

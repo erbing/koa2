@@ -1,5 +1,9 @@
 body{
   background: #E7E8EB;
+  display: flex;
+  display: -webkit-flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .topbar{
@@ -16,6 +20,9 @@ body{
 
 .footer-color{
   background: #41B783;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .logo{
@@ -26,6 +33,7 @@ body{
 }
 
 .main{
+  flex: 1;
   width: 90%;
   max-width: 1400px;
   min-width: 960px;
