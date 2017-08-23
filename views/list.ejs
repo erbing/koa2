@@ -5,8 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>文章列表</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='/dist/css/materialize.min.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 <body>
-    
+    <div class="topbar"></div>
+
+    <nav style="background: #fff;">
+      <div class="nav-index nav-wrapper white" style="margin: 0 auto">
+        <a href="#" class="brand-logo">
+          <img src="/images/v7.png" class="logo"/> <div style="color: #B3B6B7; float: left; margin-left: 10px;"><%= title %></div>
+        </a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="index.html" style="color: #666">首页</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">组件库</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">文档</a></li>
+          <li><a href="https://vuejs.com.cn" style="color: #666">文章</a></li>
+          <li><a href="#" style="color: #666">issues</a></li>
+          <li><a href="#" style="color: #666">登录/注册</a></li>
+        </ul>
+      </div>
+    </nav> 
 </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/dist/js/materialize.min.js"></script>
 </html>
