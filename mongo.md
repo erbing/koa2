@@ -11,3 +11,5 @@ db.col.insert({"title": "this is title", "by":"zigzag", "likes": 120})
 db.col.find()
 
 db.col.find().pretty() 
+
+add monk
