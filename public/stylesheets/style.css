@@ -150,3 +150,12 @@ body{
     min-width: 228px;
     text-overflow: ellipsis;
 }
+
+.page-bottom{
+  position: fixed;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+}
