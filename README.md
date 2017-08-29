@@ -2,13 +2,6 @@
 
 # add monk package
 
-[![npm version](https://badge.fury.io/js/koa2-demo.svg)](http://badge.fury.io/js/runkoa)
-[![Build](https://travis-ci.org/17koa/koa2-demo.svg?branch=master)](https://travis-ci.org/17koa/koa2-demo)
-
-
-
-这个项目是express风格的最新的Koa 2项目的示例，已集成到[koa-generator](https://github.com/17koa/koa-generator)里，算是集成一些所谓的最佳实践吧
-
 ## Tech Stack
 
 - Koa 2
@@ -23,7 +16,7 @@
 ## Getting Start
 
 ```
-git clone https://github.com/17koa/koa2-demo.git
+git clone git@github.com:erbing/koa2.git
 cd koa2-demo
 npm install
 npm start
@@ -154,10 +147,3 @@ app.use(views(__dirname + '/views-ejs', {
 - bin/www是常规koa启动文件，和express的一样
 - views是放默认的jade文件
 - views-ejs是放ejs文件
-
-
-## 推荐
-
-如果你喜欢express风格的生成，推荐[koa-generator](https://github.com/17koa/koa-generator)
-
-如果你喜欢babel + koa2可以参考[Minimal koa v2 boilerplate.](https://github.com/geekplux/koa2-boilerplate)
