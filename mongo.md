@@ -13,3 +13,5 @@ db.col.find()
 db.col.find().pretty() 
 
 add monk
+
+test mongodb in local
