@@ -20,4 +20,4 @@ nodejs 连接 mongo
 
 mogod --dbpath $dbpath(数据库数据文件路径) (../data/db)  开启 mongodb 
 
-
+mogod --dbpath ../data/db       访问 http://127.0.0.1:27017/ 即可访问 mongodb 了
