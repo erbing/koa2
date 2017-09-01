@@ -15,3 +15,5 @@ db.col.find().pretty()
 add monk
 
 test mongodb in local
+
+nodejs 连接 mongo
