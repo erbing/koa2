@@ -17,3 +17,7 @@ add monk
 test mongodb in local
 
 nodejs 连接 mongo
+
+mogod --dbpath $dbpath(数据库数据文件路径) (../data/db)  开启 mongodb 
+
+
