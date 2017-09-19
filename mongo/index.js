@@ -84,10 +84,23 @@ const update = (collection, raw) => {
 
 
 // 查询数据   所有数据
-const findAll = (collection) => {
-    db.get(collection).find({}).then((doc) => {})
+const findAll = (collection, cb) => {
+    db.get(collection).find({}).then((doc) => {
+        cb(doc)
+    })
 }
 // 条件查询单条数据
 const findOne = (collection, query) => {
     db.get(collection).find(query).then((doc) => {})    // 指定 查询id 返回数据
+}
+
+module.exports = {
+    creatCollectionAndIndex: creatCollectionAndIndex,
+    addIndex: addIndex,
+    insert: insert,
+    deleteCollection: deleteCollection,
+    deleteRow: deleteRow,
+    update: update,
+    findAll: findAll,
+    findOne: findOne
 }
