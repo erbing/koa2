@@ -29,6 +29,8 @@ const creatCollectionAndIndex = (name, idName) => {
     db.counters.insert({_id: mainId, sequence_value: 1})
 }
 
+
+
 // 添加索引    功能待定
 const addIndex = (collection) => {
     db.get(collection).find({}).then((docs) => {
@@ -38,6 +40,8 @@ const addIndex = (collection) => {
         }
     })
 }
+
+
 
 // 增加 数据
 /**
@@ -51,6 +55,7 @@ const insert = (collection, content) => {
 }
 
 
+
 // 删除 数据 (集合)
 /**
  * 
@@ -59,7 +64,6 @@ const insert = (collection, content) => {
 const deleteCollection = (collection) => {
     db.get(collection).remove()
 }
-
 // 删除 数据 （单条数据）
 /**
  * 
@@ -70,19 +74,20 @@ const deleteRow = (collection, row) => {
     db.get(collection).remove(row)
 }
 
-// 修改数据
 
+
+// 修改数据
 const update = (collection, raw) => {
     db.get(collection).update(raw)
 }
+
+
 
 // 查询数据   所有数据
 const findAll = (collection) => {
     db.get(collection).find({}).then((doc) => {})
 }
-
 // 条件查询单条数据
 const findOne = (collection, query) => {
     db.get(collection).find(query).then((doc) => {})    // 指定 查询id 返回数据
 }
-
