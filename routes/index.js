@@ -19,10 +19,6 @@ router.get('/', async function (ctx, next) {
   methods.findAll('document', (docs) => {
     console.log(docs)
   })
-  // db.get('vuejs').find({}).then((doc) => {
-  //     ctx.render('index', {
-  //         // 'list': doc
-  //     })
-  // })
+
 })
 module.exports = router;
